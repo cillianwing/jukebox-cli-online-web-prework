@@ -43,7 +43,7 @@ end
 def run(songs)
   loop do 
     help
-    puts "Please enter a command"
+    puts "Please enter a command:"
     input = gets.chomp
     if input == "list"
       list(songs)
