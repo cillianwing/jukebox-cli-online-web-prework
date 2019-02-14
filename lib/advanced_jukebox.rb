@@ -51,6 +51,7 @@ def play(my_songs)
     end
   else 
     puts "Invalid choice."
+  end
 end
 
 def exit_jukebox
