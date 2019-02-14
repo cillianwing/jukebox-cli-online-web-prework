@@ -50,10 +50,12 @@ def run(songs)
     elsif input == "play"
       play(songs)
     elsif input == "help"
-      help 
+      help
+    elsif input == "exit"
+      exit_jukebox
+      break
     end
   end 
-  exit_jukebox
 end
 
 
