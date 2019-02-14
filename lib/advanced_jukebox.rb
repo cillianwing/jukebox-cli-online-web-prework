@@ -46,6 +46,8 @@ def play(my_songs)
   my_songs.each do |song, location|
     if input == song 
       system "open #{location}"
+    end
+  end
   
 end
 
