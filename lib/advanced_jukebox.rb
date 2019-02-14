@@ -49,7 +49,8 @@ def play(my_songs)
         system "open #{location}"
       end
     end
-  
+  else 
+    puts "Invalid choice."
 end
 
 def exit_jukebox
